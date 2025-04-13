@@ -1,0 +1,27 @@
+lib/
+├── app/                    # App-level configurations
+│   ├── constants/          # Constants like colors, styles, strings
+│   ├── routes/             # Navigation and route management
+│   └── services/           # Global services (e.g., Firebase, APIs)
+├── core/                   # Shared models, enums, and utilities
+│   ├── models/             # Shared data models
+│   ├── enums/              # Application-wide enums
+│   └── exceptions/         # Custom exception handling
+├── features/               # Feature-specific code
+│   ├── splash/             # Splash screen feature
+│   │   ├── view/           # UI for the splash screen
+│   │   ├── view_model/     # Business logic for splash screen
+│   │   └── service/        # Backend code for splash screen (if needed)
+│   ├── auth/               # Authentication feature
+│   │   ├── view/           # UI for login, signup
+│   │   ├── view_model/     # Business logic for auth
+│   │   └── service/        # Backend code for auth
+│   └── home/               # Home feature
+│       ├── view/           # UI for home screen
+│       ├── view_model/     # Business logic for home
+│       └── service/        # Backend code for home
+├── shared/                 # Reusable components and utilities
+│   ├── widgets/            # Reusable UI components
+│   ├── themes/             # Light and dark themes
+│   └── styles/             # Text and container styles
+└── main.dart               # Entry point of the app

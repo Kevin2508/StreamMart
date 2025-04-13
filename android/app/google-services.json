@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "514677050224",
+    "project_id": "streammart-570be",
+    "storage_bucket": "streammart-570be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514677050224:android:4a0432b85462b33db41db5",
+        "android_client_info": {
+          "package_name": "com.example.streammart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514677050224-6go9ee90gjh60hnf7dmu2gh820ohtv59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD24XpM5r9YbC6IXW73TgoKkbou2vYJH04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514677050224-6go9ee90gjh60hnf7dmu2gh820ohtv59.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "514677050224-pomh4o04mi2opuv3a8sao8jrepntpgv0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.streammart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
